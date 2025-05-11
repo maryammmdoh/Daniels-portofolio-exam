@@ -595,10 +595,14 @@ body {
       height: 80%;
       position: absolute;
       left: -35px;
-      top: 190px;
+      top: 105px !important;
       background-image: url(../imgs/dots.png);
       background-repeat: repeat;
       z-index: -1;
+    }
+
+    .about-info .about-title h2 {
+      margin-top: 30px;
     }
   }
 }
@@ -633,21 +637,23 @@ body {
 }
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 576px) {
+@media (max-width: 991.98px) {
+
   nav {
     margin: 0 0;
+    padding: 0 0 !important;
   }
 
   #Home {
     header {
       .header {
         position: relative;
-        top: 50px;
+        top: 285px;
 
         .h-content {
           h1 {
             font-weight: 800;
-            font-size: 150px;
+            font-size: 50px;
           }
 
           .h-info {
@@ -670,14 +676,10 @@ body {
       height: 80%;
       position: absolute;
       left: -35px;
-      top: 105px !important;
+      top: 190px;
       background-image: url(../imgs/dots.png);
       background-repeat: repeat;
       z-index: -1;
-    }
-
-    .about-info .about-title h2 {
-      margin-top: 30px;
     }
   }
 }
